@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    border: 0px solid;
+    background-color: white;
+}
+
+.header img{
+    height: auto;
+    max-width: auto;
+}
+.header button{
+    display: inline;
+    padding: 55px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin-top: 13px;
+    width: auto;
+    word-spacing: 2px;
+    margin-right: 20px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: lime;
+    color: black;
+    cursor: pointer;
+    border: 4px dashed red;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+   .img{
+    max-width: 100%;
+    display: flex;
+    place-items: center;
+   }
+   .header button{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+   }
+}
+
+.div {
+    border: 2px solid orange;
+    background-color: orange;
+    height: 10px;
+    
+}
+
+
+@media screen and (max-width:700px) {
+   .div{
+    margin-top: 50px;
+   }   
+ }
+ 
+#color{
+   height: auto;
+   background-color: black;
+
+}
+
+#phone{
+    color: orange;
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+    padding-bottom: 18px;
+}
+
+#envelope{
+    color: orange;
+    float: right;
+    padding: 10px;
+    font-size: 17px;   
+}
+
+
+#email{
+    background-color: black;
+    border: none;
+    color: orange;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 70px;
+    padding-bottom: -10px;
+}
+
+#top img{
+    padding: 13px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+.logo {
+    float: left;
+    padding: 2px;
+    margin-top: 17px;
+  }
+
+.coname{
+    margin-right: 80px;
+    margin-left: 90px;
+    padding: 8px;
+  }
+
+
+ @media screen and (max-width:700px) {
+    .logo{
+        text-align: center;
+        display: grid;
+      place-items: center;
+    }
+    .coname{
+        text-align: center;
+    }
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: 350px;
+    padding: -50px;
+    overflow: hidden;
+    transform: rotate(360deg);
+    margin-top: -100px;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 20px;
+    transform: rotate(-0deg);
+    max-width: auto;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    
+    border-bottom: 5px inset orange;
+  }
+  
+   @media screen and (max-width:500px) {
+          ul{
+              text-align: center;
+              align-items: center;
+              padding: -10px 17px;
+          }  
+        }
+  
+#blog{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+
+
+
+#demo{
+    height: 100px;   
+}
+
+.carousel-caption{
+    padding: 70px;
+    color: black;
+}
+
+.chartered{
+   padding: 20px;
+   font-size: 50px;
+   color: black;
+  }
+
+.contact{
+  border: 1px solid orange;
+  background-color: orange;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 30px;
+  color: black;
+  font: bold;
+ 
+}
+
+.contact:hover{
+  background-color: black;
+  color: orange;
+  border: 1px solid orange;
+}
+
+.carousel-indicators{
+  visibility: hidden;
+}
+
+#cardfooter{
+  color: black;
+  background-color: orange;
+} 
+
+.card{
+background-color: orange;
+transition: width 4s, height 4s;
+cursor: pointer;
+}
+
+.card:hover{
+   height: 400px;
+   width: 410px;
+}
+
+
+#imgacc{
+  margin-right: 350px;
+  border: 5px solid orange;
+  position: relative;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  text-align: center;
+  padding: 40px;
+  display: block;
+  overflow: hidden;
+
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 45px;
+  border-radius: 10px;
+  left: 9px;
+  right: 0;
+  overflow: hidden;
+  background-color: orange;
+  overflow: hidden;
+  opacity: 0.6;
+  width: 97.1%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+  
+ 
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+h1{
+  color: whitesmoke;
+  
+}
+
+
+#main-content{
+  
+  color: white;
+  padding: 40px;
+  height: 400px;
+  font:800;
+
+}
+
+
+
+
+
+
+.news{
+  border-bottom: 15px solid orange;
+  border-radius: 5px;
+  padding: 25px;
+  padding-top: 50px;
+  height: 350px;
+}
+
+
+
+#inputmain{
+  height: auto;
+ background-image: url(https://img.freepik.com/premium-vector/dotted-world-map-black-background-vector-illustration_541075-470.jpg?w=360);
+ 
+}
+
+
+input{
+  width: 70%;
+  height: 30%;
+}
+
+textarea{
+  width: 70%;
+  height: 120%;
+}
+
+#send{
+  width: 20%;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 40px;
+  background-color: orange;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
